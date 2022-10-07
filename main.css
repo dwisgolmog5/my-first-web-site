@@ -1,0 +1,33 @@
+#div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%)
+}
+/* p는 글꼴 설정 */
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+    /* 링크 밑줄 없애기 */
+    text-decoration: none;
+}
+p{  
+    position: absolute;
+    font-family: 'TmonMonsori',serif;
+    right: 10px;
+
+}
+body{
+    background-color: #b6b58d;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100px;
+    height: 1000px;
+}
